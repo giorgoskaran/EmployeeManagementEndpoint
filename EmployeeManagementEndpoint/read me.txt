@@ -1,0 +1,21 @@
+Overview
+
+This Employee Management System is a RESTful API designed for managing employee data. It supports operations such as creating, retrieving, updating, and deleting (CRUD) employee records. Built with Spring Boot and leveraging JPA (Hibernate) for ORM capabilities, this application provides a backend solution that interfaces with a MySQL database. It follows a 3-layer architecture, ensuring a clear separation of concerns - presentation, service, and repository layers.
+
+Technologies & Tools
+
+    Java 17: The core programming language used.
+    Spring Boot 3: Framework for building stand-alone, production-grade Spring based Applications.
+    JPA (Hibernate 3): Java Persistence API for data persistence and ORM.
+    MySQL Workbench: Visual database design tool that integrates SQL development, administration, database design, creation, and maintenance into a single integrated development environment for the MySQL database system.
+    Postman: Used for testing the API and its endpoints through HTTP requests.
+    Maven: Dependency management and project building.
+    IntelliJ IDEA Community 2023: Integrated development environment (IDE) for developing this project.
+
+Architecture
+
+This project is structured around a 3-layer architecture, designed to separate the responsibilities within the application:
+
+    Presentation Layer: Exposes the REST API endpoints, handles HTTP requests and responses.
+    Service Layer: Contains the business logic and service classes for handling specific tasks such as CRUD operations.
+    Repository Layer: Interfaces with the database to perform data operations, leveraging Spring Data JPA.
